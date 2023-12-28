@@ -22,7 +22,26 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
+	var favColor = "teal"
+	fmt.Println("My favorite color is", favColor)
+
+	yearBorn, age := 2000, 30
+	fmt.Println("If I was born in", yearBorn, ". Would I be", age, "years old?")
+
+	var (
+		firstInitial = "A"
+		lastInitial  = "M"
+	)
+	fmt.Println("My initials are", firstInitial, lastInitial)
+
+	var ageInDays int
+
+	ageInDays = age * 365
+
+	fmt.Println(age, "years is", ageInDays, "days.") // This concatenates when printed with spaces between values and a new line.
 }
