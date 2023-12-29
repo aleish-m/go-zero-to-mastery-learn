@@ -50,7 +50,7 @@ func returnTwo(x, y int) (int, int) {
 func main() {
 	sayHello("Bob")
 	fmt.Println(saySomething())
-	println(addThree(3, 10, 20))
+	println(addThree(3, 10, 20)) // Sprintf, errorf
 
 	//* Add three numbers together using any combination of the existing functions.
 	//  * Print the result
