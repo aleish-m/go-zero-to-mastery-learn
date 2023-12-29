@@ -43,5 +43,5 @@ func main() {
 
 	ageInDays = age * 365
 
-	fmt.Println(age, "years is", ageInDays, "days.") // This concatenates when printed with spaces between values and a new line.
+	fmt.Println(age, "years is", ageInDays, "days.") // Println concatenates when printed with spaces between values and a new line.
 }
