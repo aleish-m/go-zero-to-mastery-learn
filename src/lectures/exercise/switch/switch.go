@@ -29,4 +29,17 @@ func main() {
 	default:
 		fmt.Println("adult")
 	}
+
+	switch age := 2; {
+	case age == 0:
+		fmt.Println("newborn")
+	case age < 4:
+		fmt.Println("toddler")
+	case age < 13:
+		fmt.Println("child")
+	case age < 18:
+		fmt.Println("teenager")
+	default:
+		fmt.Println("adult")
+	}
 }
